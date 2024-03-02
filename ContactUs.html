@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<!--HTML-->
+<html lang="en">
+
+<!--HEAD-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="shortcut icon" href="assets/images/Contact Us.png" type="image/x-icon">
+    <link rel="stylesheet" href="ContactUs.css">
+    <title>Contact Us | DineEase™</title>
+</head>
+
+<!--BODY-->
+<body>
+
+    <!--CONTAINER-->
+    <div class="container">
+        <!--NAVBAR-->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <img src="assets/images/Logovector.svg" alt="Logovector">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!--RESPONSIVE-NAVBAR-ERROR-->
+                    <span class=""><img src="assets/images/Menu Icon.png" alt="MenuIcon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="DineEase.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="ContactUs.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="row">
+            <!--FIRST-COL-->
+            <div class="col-5" id="contact-us-card-col">
+                <div class="card" style="width: 28rem; height: 35rem;">
+                    <div class="card-body">
+                    <h5 class="card-title">Contact Information</h5>
+                    <p class="card-text short-text">Have an inquiry? Fill out the form to contact our team.</p>
+
+                    <!--PHONE-NUMBER-->
+                        <div class="contact-us-contact-div">
+                            <img src="assets/images/phone.svg" alt="phone" class="phone-email-location">
+                            <p class="card-text phone-email-location">+36 30 123 4567</p>
+                        </div>
+                    <!--E-MAIL-->
+                        <div class="contact-us-contact-div">
+                            <img src="assets/images/email.svg" alt="emial" class="phone-email-location">
+                            <p class="card-text phone-email-location">support@dineease.com</p>
+                        </div>
+                    <!--LOCATION-->
+                        <div class="contact-us-contact-div">
+                            <img src="assets/images/location-filled.svg" alt="emial" class="phone-email-location">
+                            <p class="card-text phone-email-location">132 Dartmouth Street Boston, Massachusetts 02156 United States</p>
+                        </div>
+                    
+                    </div>
+                    <div id="social-media-div">
+                        <!--SOCIAL-MEDIA-->
+                        <a href="#"><img src="assets/images/Facebook Iconvector.svg" alt="Facebook" class="social-media-links"></a>
+                        <a href="#"><img src="assets/images/Instagram Iconvector.svg" alt="Instagram" class="social-media-links"></a>
+                        <a href="#"><img src="assets/images/Twitter Iconvector.svg" alt="Twitter" class="social-media-links"></a>
+                    </div>
+                    <div id="first-left-bottom-circle"></div>
+                    <div id="second-left-bottom-circle"></div>
+                </div>
+            </div>
+
+            <!--SECOND-COL-->
+            <div class="col-7">
+                <h1 id="send-message-title">Contact Us</h1>
+                <p>Have an inquiry? Fill out the form to contact our team.</p>
+
+                <!--SEND-MESSAGE-FORM-CONT-FLUID-->
+                <form action="">
+                    <!--NAMES-->
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control bg-light for-in" placeholder="First Name" aria-label="First Name" autofocus required>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control bg-light for-in" placeholder="Last Name" aria-label="Last Name" autofocus required>
+                            </div>
+                        </div>
+                    </div>
+                    <!--EMIAL-PHONE-->
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="input-group mb-3">
+                                <input type="email" class="form-control bg-light for-in" placeholder="Emial" aria-label="Emial" autofocus required>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control bg-light for-in" placeholder="Phone Number" aria-label="Phone Number" autofocus required>
+                            </div>
+                        </div>
+                    </div>
+                    <!--MESSAGE-->
+                    <div class="col-12" id="send-message-input-div">
+                        <input type="text" id="message-for-in" class="form-control bg-light for-in" placeholder="Message" aria-label="Message" autofocus required>
+                    </div>
+                    <!--SEND-MESSAGE-BUTTON-->
+                    <button type="button" class="btn btn-primary" id="send-message-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--FOOTER-->
+    <div class="container-fluid" id="footer-cont-flui">
+        <div class="container" id="footer-cont">
+            <div class="row">
+                <!--FIRST-COL-->
+                <div class="col-6">
+                    <!--IMAGE-->
+                    <img src="assets/images/Logomark.png" alt="DineEase™-Logo-mark">
+                    <!--PRIVACY-POLICY-->
+                    <p><a href="PrivacyPolicy.html" id="link-privacy-policy">Privacy Policy</a></p>
+                    <div id="phone-emial-div">
+                        <!--PHONE-NUMBER-->
+                        <p>+36 30 123 4567</p>
+                        <!--EMAIL-->
+                        <p>support@dineease.com</p>
+                    </div>
+                    <!--ALL-RIGHTS-RESERVED-->
+                    <p id="rights-reserved">© 2024 - All rights reserved</p>
+                </div>
+                <!--SECOND-COL-->
+                <div class="col-6">
+                    <div id="footer-follow-us-div">
+                        <p>Follow Us</p>
+                        <a href="#"><img src="assets/images/Facebook Iconvector.svg" alt="Facebook"></a>
+                        <a href="#"><img src="assets/images/Instagram Iconvector.svg" alt="Instagram"></a>
+                        <a href="#"><img src="assets/images/Twitter Iconvector.svg" alt="Twitter"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

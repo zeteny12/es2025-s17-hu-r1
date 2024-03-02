@@ -1,0 +1,378 @@
+/*NAVBAR*/
+.nav-link{
+    font-weight: 600;
+}
+
+/*BLUR-CIRCLE*/
+#right-top-circle-hero{
+    z-index: -5000;
+    position: absolute;
+    background-color: #dfd0f2;
+    width: 350px;
+    height: 350px;
+    border-top-left-radius: 550%;
+    border-bottom-left-radius: 550%;
+    border-bottom-right-radius: 550%;
+    top: 0;
+    right: 0;
+    filter: blur(15px);
+}
+
+/*SLIDE-DIVS*/
+#background-slide-div,
+#background-slide-div-4,
+#background-slide-div-3,
+#background-slide-div-5
+{
+    z-index: -5000;
+    position: absolute;
+    height: 50px;
+    transform: translateY(-60px) rotate(-1deg);   
+}
+
+#background-slide-div-4{
+    background-color: #7f00ff;
+    position: relative;
+    transform: translateY(-140px) rotate(-5deg);
+}
+
+#background-slide-div-3{
+    background-color: #e0d5ec9c;
+    position: relative;
+    transform: translateY(-180px) rotate(-5deg);
+}
+
+#background-slide-div-5{
+    background-color: #bb7ff7bd;
+    position: relative;
+    transform: translateY(-225px) rotate(-5deg);
+}
+
+/*HERO-CONTAINER*/
+#explore-restaurants-btn{
+    background-color: #7f00ff;
+    border-radius: 7px;
+    border-color: #7f00ff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#explore-restaurants-btn:hover{
+    transform: scale(0.9);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: .3s;
+}
+
+#explore-restaurants-btn:not(:hover){
+    transition: .3s;
+}
+
+#hero-row{
+    margin-top: 100px;
+}
+
+#hero-h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#hero-paragraph{
+    font-size: 19px;
+    color: #343434;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+#hero-picture{
+    height: 550px;
+    transform: translateY(-100px);
+}
+
+#hero-picture-div{
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+}
+
+
+
+/*REASTAURANTS-CONTAINER*/
+#restaurants-cont{
+    margin-top: 12px;
+}
+
+#restaurants-h1{
+    font-weight: bold;
+}
+
+#restaurants-row{
+    align-items: center;
+    justify-content: center;
+    /*display: inline-flex;*/
+    margin: auto;
+}
+
+.col-4{
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+}
+
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 15px;
+    margin-bottom: 100px;
+}
+
+.card-img-top{
+    width: 352px;
+    height: 215.25px;
+    padding: 15px;
+    border-radius: 1.4rem;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+.card-text{
+    color: #696969;
+}
+
+.view-restaurant,
+.view-restaurant:hover,
+.view-restaurant:active,
+.view-restaurant:not(:hover) {
+    margin: 0;
+    padding: 0;
+    color: #7f00ff !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    border: none !important;
+    background-color: #ffffff !important;
+    float: inline-end !important;
+    transform: none !important;
+}
+
+.view-restaurant:hover {
+    transform: translateX(-15px)!important; 
+    transition: .3s!important;
+}
+
+.view-restaurant:not(:hover){
+    transition: .3s!important;
+}
+
+#left-bottom-circle-restaurants{
+    z-index: -5000;
+    position: absolute;
+    background-color: #f2e8ff;
+    width: 550px;
+    height: 550px;
+    border-top-right-radius: 550%;
+    bottom: -50;
+    left: 0;
+    transform: translateY(-350px);
+}
+
+#right-top-circle-restaurants{
+    z-index: -5000;
+    position: absolute;
+    background-color: #f2e8ff;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    top: 0;    
+    right: 0;
+    transform: translateY(750px);
+}
+
+
+/*TESTIMONIALS*/
+#cont-fluid-color{
+    background-color: #f2e8ff;
+}
+
+#testimonials-cont{
+    margin-top: 50px;
+    padding-top: 150px;
+    background-image: url('assets/images/Quote\ markvector.svg');
+    background-repeat: no-repeat;
+    background-position: 4.3% 12%;
+}
+
+#testimonials-h1{
+    margin-left: 150px;
+    font-weight: bold;
+}
+
+.testimonials-quote-mark{
+    height: 20px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+#on-end{
+    float: inline-end;
+}
+
+#on-end:hover{
+    transform: translateX(-20px)  scale(1.1) rotate(20deg);
+    transition: .3s;
+}
+
+#on-end:not(:hover){
+    transition: .3s;
+}
+
+#second-testimonials:hover{
+    transform: scale(1.1) rotate(-20deg);
+    transition: .3s;
+}
+
+#second-testimonials:not(:hover){
+    transition: .3s;
+}
+
+.testimonials-cards{
+    float: inline-start;
+    margin-top: 60px;
+}
+
+#testimonials-third-card{
+    margin-top: 0;
+}
+
+#testimonials-third-card:hover{
+    transform: translateY(-150px) scale(1.1) rotate(-15deg);
+    transition: .3s;
+}
+
+#testimonials-third-card:not(:hover){
+    transition: .3s;
+}
+
+.testimonials-persons{
+    font-weight: bold;
+}
+
+.testimonials-text{
+    color: #242124 ;
+}
+
+.testimonials-card-cont{
+    margin-top: 20px;
+}
+
+/*#inline_elem1,
+#inline_elem1 .fas.fa-envelope {
+    background-color: lightgrey;
+}
+#submit-btn-group,
+#submit-btn-group .fas.fa-envelope{
+    background-color: #7f00ff;
+}
+
+.fas .fa-envelope button{
+    height: fit-content;
+}*/
+
+
+/*SEARCH*/
+#search-cont{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#search-h1{
+    font-weight: bold;
+}
+
+#search-text, #search-h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#search-icon{
+    color: #000;
+}
+
+#search-form-div{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#search-more-div{
+    justify-content: center;
+    display: flex;
+}
+
+#search-more{
+    width: 200px;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    color: #7f00ff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    background-color: #ffffff;
+}
+
+#search-more:hover{
+    background-color: #ffffff;
+    border: none;
+    color: #7f00ff;
+    transform: translateY(15px);
+    transition: .3s;
+}
+
+#search-more:not(:hover){
+    transition: .3s;
+}
+
+
+
+/*FOOTER*/
+#footer-cont-flui{
+    background-color: #000;
+    height: 250px;
+    color: #fff;
+}
+
+#footer-cont{
+    padding-top: 50px;
+}
+
+#phone-emial-div{
+    margin-bottom: 15px;
+}
+
+#phone-emial-div p{
+    display: inline;
+    padding-right: 25px;
+}
+
+#rights-reserved{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+#link-privacy-policy{
+    text-decoration: none;
+    color: #fff;
+}
+
+#footer-follow-us-div{
+    float: inline-end;
+    margin-right: 50px;
+}
+
+#footer-follow-us-div img{
+    margin-right: 8px;
+}
