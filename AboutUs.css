@@ -48,6 +48,10 @@ hr{
     /*margin-right: 10px;*/
 }
 
+.paragraph-container p{
+    color: #353839;
+}
+
 .time-line-under-parag{
     margin-top: 70px;
 }
@@ -111,4 +115,113 @@ hr{
 
 #time-line-2022{
     margin-left: 40px;
+}
+
+.number-container p{
+    color: #7f00ff;
+    font-weight: bold;
+}
+
+#time-line-col-div #meet-the-team-header{
+    margin-top: 130px;
+}
+
+/*MEET-THE-TEAM*/
+#persons-first-cont-fluid{
+    margin-top: 80px;
+}
+
+#persons-second-cont-fluid{
+    margin-top: 30px;
+}
+
+h5{
+    font-weight: bold;
+}
+
+/*CONNECT-WITH-DINEEASE*/
+#connect-with-dineease-con-fluid{
+    background-color: #7f00ff;
+    margin: 50px auto 0 auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+#connect-with-dineease-con-fluid .container .row .col-8 h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#connect-with-dineease-con-fluid p{
+    padding-top: 50px;
+}
+
+#connect-with-dineease-con-fluid .container .row .col-8 h1,
+#connect-with-dineease-con-fluid .container .row .col-8 p {
+    color: #fff;
+}
+
+.btn{
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 6px;
+    color: #7f00ff;
+    margin-top: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn:hover{
+    background-color: #fff;
+    border-color: #fff;
+    color: #7f00ff;
+    transform: scale(0.9);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: .3s;
+}
+
+.btn:not(:hover){
+    transition: .3s;
+}
+
+#connect-with-dineease-con-fluid .container{
+    padding-bottom: 100px;
+}
+
+/*FOOTER*/
+#footer-cont-flui{
+    background-color: #000;
+    height: 250px;
+    color: #fff;
+}
+
+#footer-cont{
+    padding-top: 50px;
+}
+
+#phone-emial-div{
+    margin-bottom: 15px;
+}
+
+#phone-emial-div p{
+    display: inline;
+    padding-right: 25px;
+}
+
+#rights-reserved{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+#link-privacy-policy{
+    text-decoration: none;
+    color: #fff;
+}
+
+#footer-follow-us-div{
+    float: inline-end;
+    margin-right: 50px;
+}
+
+#footer-follow-us-div img{
+    margin-right: 8px;
 }
